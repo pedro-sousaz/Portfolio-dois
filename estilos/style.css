@@ -71,27 +71,80 @@ menu a:hover{
 body{
     background: rgb(0, 0, 0);
 }
+
+main h1{
+  color: #befcce;
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
   
 .conteiner{
+  display: flex;
   margin-top: 15px;
   width: 60vw;
   height: 50vh;
   margin: auto;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
-#para{
+.para{
   color: white;
   font-family: var(--fonte-roboto);
   text-align: justify;
+  min-width: 100px;
 }
 
-#para h1{
-  color: #befcce;
-  text-align: center;
-  margin-top: 28px;
-}
 
 #ilogo{
   display: block;
   margin: auto;
+}
+
+.conteiner-dois{
+  display: flex;
+  margin-top: 15px;
+  width: 60vw;
+  height: 50vh;
+  margin: auto;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#project{
+  border-top: 1px solid #3B8C6E;
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+.item{
+  background-color: #89D99D;
+  width: 200px;
+  height: 150px;
+  margin: auto;
+
+}
+
+.conteiner-dois p{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.conteiner-tres{
+  display: flex;
+  margin-top: 15px;
+  width: 60vw;
+  height: 50vh;
+  margin: auto;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+
+.item-dois{
+  display: inline-block;
+
 }

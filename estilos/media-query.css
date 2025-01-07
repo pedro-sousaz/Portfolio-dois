@@ -47,6 +47,19 @@ Grandes Telas: acima de 1200px
         margin-bottom: 28px;
     }
 
+    .conteiner{
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .conteiner h1{
+        
+    }
+
+    .para{
+        min-width: 100px;
+        align-self: flex-start;
+    }
 
 }
 
